@@ -1,0 +1,6 @@
+h1 {
+    position: absolute; /* Allow precise positioning */
+    top: 50%;           /* Move down 50% of the viewport */
+    left: 50%;          /* Move right 50% of the viewport */
+    transform: translate(-50%, -50%); /* Shift it back by 50% of its width and height */
+}
