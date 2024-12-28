@@ -11,31 +11,19 @@ The Wildfire Prediction Application is designed to monitor and predict fire-pron
 
 # 📷Pictures
 
+### Environmental Data Change Over Time 
+<div style="display: flex; justify-content: space-around;">
+<img src="https://github.com/AirajHussain/WildFire-Prediction-System/blob/main/images/batch1.png" alt="login_page" width="465"/>
+<img src="https://github.com/AirajHussain/WildFire-Prediction-System/blob/main/images/batch2.png" alt="login_page" width="460"/>
+</div>
+
+The images show how environmental data, such as temperature, humidity, and soil moisture, changes over time, highlighting the dynamic conditions that influence wildfire prediction.
+
 
 # Setup Instructions
 Follow these steps to run the **Wildfire Prediction System** locally:
 
-### Prerequisites
-1. Install Python (3.8 or above).
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/AirajHussain/WildFire-Prediction-System.git
-   ```
-3. Navigate to the project directory:
-   ```bash
-   cd WildFire-Prediction-System
-   ```
-4. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Running the Project
-1. Prepare the input data and ensure it follows the required format as detailed in the report.
-2. Execute the main script:
-   ```bash
-   python main.py
-   ```
-3. View the results in the terminal or saved output files.
-
----
+1. Clone the repository.
+2. Navigate to the `server` folder and run `npm start`.
+3. Navigate to the `client` folder and run `npm start`.
+4. Go to the WildFire site and proceed.
