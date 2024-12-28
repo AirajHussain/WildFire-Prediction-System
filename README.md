@@ -1,4 +1,4 @@
-# Wildfire Prediction System 
+# Wildfire Prediction System (Work In Progress)
 The Wildfire Prediction Application is designed to monitor and predict fire-prone conditions in real-time. Using environmental sensors (temperature, humidity, and soil moisture), the application continuously collects data via an STM32 microcontroller. This data is analyzed through a fire risk algorithm built in Python to assess potential fire risks. The results are stored in a MongoDB database, and a React.js-powered web dashboard visualizes the data, providing real-time alerts and analytics. This tool helps manage and mitigate wildfire risks by offering insights into environmental conditions that influence fire behavior.
 
 
