@@ -1,28 +1,18 @@
 # Wildfire Prediction System 
-
-Welcome to the **Wildfire Prediction System** repository! This project leverages machine learning techniques to predict the likelihood and spread of wildfires, helping mitigate damage and enhance preparedness efforts. 🌲🚒
-
-## Project Overview
-Wildfires are a major environmental and economic challenge. The **Wildfire Prediction System** aims to provide predictive insights using historical and environmental data, empowering decision-makers with actionable intelligence to reduce wildfire impact.
+The Wildfire Prediction Application is designed to monitor and predict fire-prone conditions in real-time. Using environmental sensors (temperature, humidity, and soil moisture), the application continuously collects data via an STM32 microcontroller. This data is analyzed through a fire risk algorithm built in Python to assess potential fire risks. The results are stored in a MongoDB database, and a React.js-powered web dashboard visualizes the data, providing real-time alerts and analytics. This tool helps manage and mitigate wildfire risks by offering insights into environmental conditions that influence fire behavior.
 
 
----
+# 💻Technologies
+- Java
+- React.js
+- Python
+- MongoDB
+- STM32
 
-## Features
-- Predicts wildfire occurrence based on environmental and historical data.
-- Implements machine learning models for accuracy and efficiency.
-- Provides actionable insights for wildfire prevention and management.
+# 📷Pictures
 
----
 
-## Tech Stack
-- **Programming Language:** Python
-- **Libraries & Frameworks:** NumPy, Pandas, Scikit-learn, Matplotlib
-- **Version Control:** Git & GitHub
-
----
-
-## How to Run
+# Setup Instructions
 Follow these steps to run the **Wildfire Prediction System** locally:
 
 ### Prerequisites
